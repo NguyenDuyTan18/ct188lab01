@@ -1,0 +1,21 @@
+.root {
+    width: 100%;
+}
+
+
+.header-img-logo, .body {
+    margin-top: 0px !important;
+}
+.header-nav, .header {
+    margin-bottom: 0px !important;
+}
+
+
+.body-img{
+    width: 100%;
+    margin-top: 0px !important;
+}
+
+.contact-img {
+    width: 100px;
+}
