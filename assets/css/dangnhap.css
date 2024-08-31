@@ -1,0 +1,16 @@
+.body{
+    font-weight: bold;
+}
+
+.body-sign {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.body-container{
+    margin-left: 10px;
+}
+
+.body-table .button-login{
+    text-align: center;
+}

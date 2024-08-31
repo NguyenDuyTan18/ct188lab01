@@ -16,3 +16,7 @@ li {
 h1 {
     font-size: 2em;
 }
+
+.footer p {
+    font-weight: bold;
+}
