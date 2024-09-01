@@ -1,5 +1,5 @@
 .root {
-    width: 100%;
+   
 }
 
 
@@ -90,5 +90,7 @@ h3{
 }
 
 .contact-call p, .contact-order p, .contact-receive p, .contact-pay p{
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
