@@ -28,7 +28,7 @@ h1{
     font-weight: 300;
     text-align: center;
 }
-h1::after{
+h1{
     position: relative;
     min-width: 200px;
     

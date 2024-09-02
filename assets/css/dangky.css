@@ -1,3 +1,7 @@
+.body{
+    margin-top: 100px;
+}
+
 .body-table tr td{
     font-weight: bold;
     font-size: 20px;
@@ -12,6 +16,13 @@
 
 .body-container {
     margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body-table{
+    text-align: justify;
+    margin-left: 200px;
 }
 
 .body-table tr td span{
@@ -19,3 +30,13 @@
     font-weight: 100;
     font-size: 15px;
 }
+
+.body-table .one{
+    float:right;
+    margin-right: 10px;
+}
+
+.body-container p, .body-container div{
+    margin-left: 200px;
+}
+
