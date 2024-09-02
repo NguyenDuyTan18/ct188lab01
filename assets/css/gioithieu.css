@@ -1,0 +1,26 @@
+.body-content img{
+    width: 100%;
+}
+
+.body-content p{
+    line-height: 20px;
+}
+
+.body{
+    display: flex;
+    justify-content:space-between;
+}
+
+.body-container{
+    margin-left: 3px;
+    width: 75%;
+}
+
+.body-members{
+    width: 20%;
+    padding-right: 30px;
+}
+
+.body-members p{
+    margin-top: 100px;
+}

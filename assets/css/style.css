@@ -2,7 +2,7 @@
     margin-left: 10px;
     margin-right: 10px;
     width: 100%;position: relative;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 .header{
@@ -144,4 +144,10 @@ h3{
     color: #F90B6D;
     font-weight: 300;
     height: 24px;
+}
+.ti-icon{
+    padding: 4px;
+    background-color: #cddc39; 
+    color: #fff;
+    border: 2px solid #fff;
 }

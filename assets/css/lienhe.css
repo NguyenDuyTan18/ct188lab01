@@ -1,0 +1,37 @@
+.body{
+   
+    border: #fff;
+}
+
+fieldset {
+    
+}
+
+.body-address-img{
+    width: 15px;
+    padding: 4px; 
+    background-color: #cddc39;
+}
+
+.body-container{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ti-location{
+    padding: 4px;
+    color: #bb1361 ;
+    background-color: #cddc39;
+}
+
+.body-table{
+    margin-left: 30%;
+}
+
+.mr-4{
+    margin-right: 5px;
+}
+
+.submit-button{
+    margin-bottom: 5px;
+}

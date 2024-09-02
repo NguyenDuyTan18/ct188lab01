@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/favicon.ico">
     <link rel="stylesheet" href="./assets/themify-icons-font/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./assets/css/lienhe.css">
     <title>Liên Hệ</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
             <nav class="header-nav">
                 <div class="header-container-nav">
                     <a href="./index.html">Trang chủ</a>
-                    <a href="">Giới thiệu</a>
+                    <a href="./gioithieu.html">Giới thiệu</a>
                     <a href="./sanpham.html">Sản phẩm</a>
                     <a href="./tintuc.html">Tin tức</a>
                     <a href="./dangnhap.html">Đăng nhập</a>
@@ -33,31 +33,33 @@
         </header>
 
         <main class="body">
+            <fieldset>
+             <div class="body-container">   
             <div class="body-address">
                 <h1>Liên hệ</h1>
-                <img src="./assets/images-lienhe/check-in.png" alt="" class="body-address-img">
-                <h1>Địa chỉ: 0123, Tòa Nhà ABC, TP. Cần Thơ</h1>
-                <p>Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử haowjc sử dụng biểu mẫu bên dưới.</p>
-                <p>Xin cảm ơn.</p>
+                <i class="ti-location-pin ti-location"></i>
+                <span><strong>Địa chỉ: 0123, Tòa Nhà ABC, TP. Cần Thơ</strong>.</span>
+                <span>Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới.</span>
+                <span>Xin cảm ơn.</span>
             </div>
             
             <div class="body-comment">
-                <fieldset>
-                    <legend>Góp ý</legend>
+                
+                    <h1>Góp ý</h1>
                     <div class="body-table">
                         <table>
                             <tr>
-                                <td><label for="HoTen">Họ Tên:</label></td>
+                                <td><label for="HoTen"><i class="ti-user mr-4 ti-icon"></i></label></td>
                                 <td><input type="text" name="HoTen" id="HoTen" placeholder="Vui lòng nhập Họ Tên của bạn"></td>
                             </tr>
                             
                             <tr>
-                                <td><label for="Email">Email:</label></td>
+                                <td><label for="Email"><i class="ti-email ti-icon"></i></label></td>
                                 <td><input type="email" name="Email" id="Email" placeholder="Vui lòng nhập địa chỉ Email"></td>
                             </tr>
 
                             <tr>
-                                <td><label for="chapter">Chủ đề:</label></td>
+                                <td><label for="chapter"><i class="ti-menu-alt ti-icon"></i></label></td>
                                 <td>
                                     <select name="chapter" id="chapter">
                                         <option value="Sản phẩm và dịch vụ">Về Sản Phẩm/ Dịch Vụ</option>
@@ -68,22 +70,18 @@
                             </tr>
 
                             <tr>
-                                <td colspan="2"><label for="Noidung">Nội dung:</label></td>
+                                <td ><label for="Noidung"><i class="ti-file ti-icon"></i></label></td>
+                                <td><textarea rows="7" cols="50" name="" id="Noidung" placeholder="Nội dung cần liên hệ"></textarea></td>
                             </tr>
 
                             <tr>
                                 <td colspan="2">
-                                    <textarea rows="7" cols="50" name="" id="Noidung" placeholder="Nội dung cần liên hệ"></textarea>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td colspan="2">
-                                    <input type="submit" value="Gửi">
+                                    <input type="submit" value="Gửi" class="submit-button">
                                 </td>
                             </tr>
                         </table>
                     </div>
+                </div>
                 </fieldset>
             </div>
         </main>
