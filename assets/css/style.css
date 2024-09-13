@@ -15,7 +15,33 @@
     border-radius: 5px;
     margin-bottom: 2px;
     background-image: url("../images-header/header.png"), url("../images-header/header-img1.png");
+
+}
+
+.three-pic{
     position: relative;
+    height: 20px;
+}
+
+.three-pic #one{
+    position: relative;
+    height: 100px;
+    left: 30%;
+    top: -60px;
+}
+
+.three-pic #two{
+    position: relative;
+    height: 70px;
+    left: 40%;
+    top: -70px;
+}
+
+.three-pic #three{
+    position: relative;
+    height: 80px;
+    left: 45%;
+    top: -50px;
 }
 /* .header-img{
     position: absolute;
