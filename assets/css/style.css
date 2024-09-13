@@ -1,7 +1,7 @@
 .root{
     margin-left: 10px;
     margin-right: 10px;
-    width: 100%;position: relative;
+    width: 100%;
     /* border: 1px solid grey; */
 }
 
@@ -40,7 +40,7 @@
 .three-pic #three{
     position: relative;
     height: 80px;
-    left: 45%;
+    left: 55%;
     top: -50px;
 }
 /* .header-img{
