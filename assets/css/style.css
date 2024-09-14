@@ -26,6 +26,7 @@
 .three-pic #one{
     position: relative;
     height: 100px;
+    animation: picone ease 3s;
     left: 30%;
     top: -60px;
 }
@@ -33,24 +34,18 @@
 .three-pic #two{
     position: relative;
     height: 70px;
-    left: 40%;
+    animation: pictwo ease 3s;
+    left: 45%;
     top: -70px;
 }
 
 .three-pic #three{
     position: relative;
     height: 80px;
+    animation: picthree ease 3s;
     left: 55%;
     top: -50px;
 }
-/* .header-img{
-    position: absolute;
-    background-image: url("../images-header/header-img1.png");
-    height: 100px;
-    width: 50px;
-    left: 30%;
-    right: 80%;
-} */
 
 .header-img-logo{
     display: block;
@@ -114,10 +109,6 @@ footer p{
     text-align: center;
 }
 
-/* p {
-    text-align: justify;
-    
-} */
 
 li {
     margin-left: 45px;
@@ -125,6 +116,15 @@ li {
 
 h1 {
     font-size: 2em;
+   
+    
+}
+
+h1::after{
+    position: relative;
+    border-bottom: 5px;
+    width: 200px;
+    background-image:radial-gradient(#cddc39,#fff);
 }
 
 .footer p {
@@ -176,4 +176,31 @@ h3{
     background-color: #cddc39; 
     color: #fff;
     border: 2px solid #fff;
+}
+
+@keyframes picone{
+    from{
+        left: 80%;
+    }
+    to {
+        left: 30%;
+    }
+}
+
+@keyframes pictwo{
+    from{
+        left: 80%;
+    }
+    to {
+        left: 45%;
+    }
+}
+
+@keyframes picthree{
+    from{
+        left: 80%;
+    }
+    to {
+        left: 55%;
+    }
 }
