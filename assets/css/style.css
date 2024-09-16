@@ -15,40 +15,40 @@
     border-radius: 5px;
     margin-bottom: 2px;
     background-image: url("../images-header/header.png"), url("../images-header/header-img1.png");
-
+    position: relative;
 }
 
 .three-pic{
-    position: relative;
-    height: 20px;
+    /* position: relative; */
+    /* height: 20px; */
 }
 
-.three-pic #one{
-    position: relative;
+ .one{
+    position: absolute;
     height: 100px;
     animation: picone ease 3s;
     left: 30%;
-    top: -60px;
+    top: -30px;
 }
 
-.three-pic #two{
-    position: relative;
+ .two{
+    position: absolute;
     height: 70px;
     animation: pictwo ease 3s;
     left: 45%;
-    top: -70px;
+    top: -5px;
 }
 
-.three-pic #three{
-    position: relative;
+ .three{
+    position: absolute;
     height: 80px;
     animation: picthree ease 3s;
-    left: 55%;
-    top: -50px;
+    left: 63%;
+    /* top: -50px; */
 }
 
 .header-img-logo{
-    display: block;
+    display: inline-block;
 }
 
 .header-nav{
